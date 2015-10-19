@@ -1,0 +1,40 @@
+{
+  "name": "requirejs-to-webpack-cli",
+  "version": "0.1.0",
+  "description": "Translates RequireJS build configs to their webpack counterpart.",
+  "main": "converter.js",
+  "bin": {
+    "requirejs-to-webpack-cli": "bin/cli.js",
+    "requirejs-to-webpack": "bin/cli.js",
+    "r2w": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "tap tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suitupalex/requirejs-to-webpack-cli"
+  },
+  "keywords": [
+    "requirejs",
+    "webpack",
+    "converter",
+    "translator",
+    "commonjs",
+    "amd"
+  ],
+  "author": "Alexander Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suitupalex/requirejs-to-webpack-cli/issues"
+  },
+  "homepage": "https://github.com/suitupalex/requirejs-to-webpack-cli",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "tap": "^2.1.1"
+  }
+}

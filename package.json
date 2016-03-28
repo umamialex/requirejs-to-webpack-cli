@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/suitupalex/requirejs-to-webpack-cli",
   "dependencies": {
-    "chalk": "^1.1.1",
+    "chalk": "^1.1.2",
     "commander": "^2.9.0",
     "debug": "^2.2.0"
   },

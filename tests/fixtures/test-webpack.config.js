@@ -33,7 +33,7 @@ module.exports = {
   'plugins': [
     providePlugin
   ],
-  'modules': {
+  'module': {
     'loaders': [
       {
         'test': /underscore/,

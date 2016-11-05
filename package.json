@@ -9,7 +9,8 @@
     "r2w": "bin/cli.js"
   },
   "scripts": {
-    "test": "tap tests/*.js"
+    "test": "tap tests/*.js -Rspec --coverage",
+    "posttest": "tap --coverage-report=text-lcov | codacy-coverage"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "tap": "^8.0.0"
   },
   "devDependencies": {
+    "codacy-coverage": "^2.0.0",
     "tap": "^5.0.1"
   }
 }

@@ -1,6 +1,11 @@
 language: node_js
 node_js:
-  - '4.2'
-  - '4.1'
-  - '4.0'
-sudo: false
+  - 'node'
+  - '6'
+  - '4'
+before_install:
+  - npm install -g yarn
+install:
+  - yarn
+script:
+  - yarn test

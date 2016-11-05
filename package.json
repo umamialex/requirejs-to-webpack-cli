@@ -1,6 +1,6 @@
 {
   "name": "requirejs-to-webpack-cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Translates RequireJS build configs to their webpack counterpart.",
   "main": "converter.js",
   "bin": {
